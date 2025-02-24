@@ -10,8 +10,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<MongoDbConfig>(builder.Configuration.GetSection("MongoDbConfig"));
 
 builder.Services.AddSingleton<MongoDbService>();
-
-
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 builder.Services.AddControllers();
@@ -27,7 +25,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers(); // This enables your controllers
 

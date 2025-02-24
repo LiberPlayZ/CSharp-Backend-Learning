@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using MyCSharpBackend.Interfaces;
 using MyCSharpBackend.Models;
-using MyCSharpBackend.Repository;
-
 namespace MyCSharpBackend.Controllers
 
 {
@@ -13,9 +12,9 @@ namespace MyCSharpBackend.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly UserRepository _userRepository;
+        private readonly IUserRepository _userRepository;
 
-        public UserController(UserRepository userRepository)
+        public UserController(IUserRepository userRepository)
         {
            this._userRepository = userRepository;
         }

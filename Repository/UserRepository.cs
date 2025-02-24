@@ -10,13 +10,12 @@ namespace MyCSharpBackend.Repository
 {
     public class UserRepository : IUserRepository
     {
-        private readonly MongoDbService _mongoService;
         private readonly IMongoCollection<User> _users;
 
         public UserRepository(MongoDbService mongoService)
         {
-            _mongoService = mongoService;
-            _users = _mongoService.GetCollection<User>("users");
+           
+            _users = mongoService.GetCollection<User>("users");
         }
 
         public async Task<User> CreateUser(User user)
