@@ -9,7 +9,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.Configure<MongoDbConfig>(builder.Configuration.GetSection("MongoDbConfig"));
 
-
 builder.Services.AddSingleton<MongoDbService>();
 
 

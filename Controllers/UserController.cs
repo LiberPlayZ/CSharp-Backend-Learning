@@ -19,5 +19,12 @@ namespace MyCSharpBackend.Controllers
         {
            this._userRepository = userRepository;
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetUsers(){
+            var users =  await _userRepository.GetUsers();
+
+            return Ok(users);
+        }
     }
 }
