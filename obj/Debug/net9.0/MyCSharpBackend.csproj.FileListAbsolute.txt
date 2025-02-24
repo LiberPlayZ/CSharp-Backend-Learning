@@ -37,3 +37,7 @@ C:\Programing\projects\c#-angular-learning-project\MyCSharpBackend\bin\Debug\net
 C:\Programing\projects\c#-angular-learning-project\MyCSharpBackend\bin\Debug\net9.0\SharpCompress.dll
 C:\Programing\projects\c#-angular-learning-project\MyCSharpBackend\bin\Debug\net9.0\Snappier.dll
 C:\Programing\projects\c#-angular-learning-project\MyCSharpBackend\bin\Debug\net9.0\ZstdSharp.dll
+C:\Programing\projects\c#-angular-learning-project\MyCSharpBackend\obj\Debug\net9.0\MyCSharpBackend.sourcelink.json
+C:\Programing\projects\c#-angular-learning-project\MyCSharpBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Programing\projects\c#-angular-learning-project\MyCSharpBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Programing\projects\c#-angular-learning-project\MyCSharpBackend\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

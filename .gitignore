@@ -1,0 +1,64 @@
+# .NET Core
+bin/
+obj/
+
+# User-specific files
+.idea/
+.vscode/
+
+# JetBrains Rider specific files
+.idea/
+
+# ASP.NET Core files
+appsettings.Development.json
+appsettings.Production.json
+
+# User secrets and sensitive data
+secrets/
+
+# MongoDB related files (in case you use local db storage for any reason)
+data/
+
+# Visual Studio for Mac
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files (includes: .exe)
+*.exe
+*.dll
+
+# Windows installer patches
+*.ps1
+*.bat
+
+# Windows compressed files
+*.zip
+
+# Windows log files
+*.log
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# MongoDB files (in case you have your db or data folder in the project directory)
+*.log
+*.bak
+*.dat
+
+# Npm related (for front-end dependencies)
+node_modules/
+
+# ASP.NET Core Visual Studio file
+.vs2019/
+
+# JetBrains Rider files
+.idea/
+
+# Other possible unwanted files
+.DS_Store
